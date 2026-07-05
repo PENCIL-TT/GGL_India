@@ -17,6 +17,22 @@
       "destination": "/api/india_kyc?path=:path*"
     },
     {
+      "source": "/api/admin/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/content/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/services/:path*",
+      "destination": "/api"
+    },
+    {
+      "source": "/api/offices/:path*",
+      "destination": "/api"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
